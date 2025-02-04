@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificates Page</title>
+  <link rel="stylesheet" href="Certificate.css">
+</head>
+<body>
+  <section id="certificates">
+    <h2>My Certificates</h2>
+    <div class="certificate-gallery">
+    
+      <div class="certificate-item">
+        <img src="Vulnerability & Penetration.png" alt="Certificate 1" onclick="openPopup('Vulnerability & Penetration.png')">
+        <p>Vulnerability Assesment & Penetration Testing (VAPT)</p>
+      </div>
+      <div class="certificate-item">
+        <img src="AppSec.png" alt="Certificate 2" onclick="openPopup('AppSec.png')">
+        <p>Certified AppSec Practitioner (CAP)</p>
+      </div>
+
+      <div class="certificate-item">
+        <img src="Intro to CS.png" alt="Certificate 1" onclick="openPopup('Intro to CS.png')">
+        <p>Introduction to Cyber Security </p>
+      </div>
+
+      <div class="certificate-item">
+        <img src="Cloud Foundations.jpg" alt="Certificate 1" onclick="openPopup('Cloud Foundations.jpg')">
+        <p>Cloud Foundations</p>
+      </div>
+
+      <div class="certificate-item">
+        <img src="NoSQL.jpg" alt="Certificate 1" onclick="openPopup('NoSQL.jpg')">
+        <p>Introduction to NoSQL</p>
+      </div>
+
+      <div class="certificate-item">
+        <img src="Graphic Designer.jpg" alt="Certificate 1" onclick="openPopup('Graphic Designer.jpg')">
+        <p>Certified Computer Graphic Designer</p>
+      </div>
+
+      <div class="certificate-item">
+        <img src="Computer HW.jpg" alt="Certificate 1" onclick="openPopup('Computer HW.jpg')">
+        <p>Certified in Computer Hardware</p>
+      </div>
+
+      <div class="certificate-item">
+        <img src="Computer Applications.jpg" alt="Certificate 1" onclick="openPopup('Computer Applications.jpg')">
+        <p>Certified in Computer Applications</p>
+      </div>
+
+      <div class="certificate-item">
+        <img src="CODECAMP.jpg" alt="Certificate 1" onclick="openPopup('CODECAMP.jpg')">
+        <p>Arduino CODECAMP</p>
+      </div>
+
+      <div class="certificate-item">
+        <img src="Cyber Role.png" alt="Certificate 1" onclick="openPopup('Cyber Role.png')">
+        <p>Red Teamer </p>
+      </div>
+
+      <div class="certificate-item">
+        <img src="Project Mgnt.png" alt="Certificate 1" onclick="openPopup('Project Mgnt.png')">
+        <p>Introduction to Project Managment</p>
+      </div>
+
+      <div class="certificate-item">
+        <img src="Teacher Training.jpg" alt="Certificate 1" onclick="openPopup('Teacher Training.jpg')">
+        <p>Teacher Training</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popup Overlay -->
+  <div id="popup-overlay" class="popup-overlay" onclick="closePopup()">
+    <div class="popup-content">
+      <img id="popup-image" src="" alt="Popup Certificate">
+    </div>
+  </div>
+
+  <script src="Certificate.js"></script>
+</body>
+</html>
